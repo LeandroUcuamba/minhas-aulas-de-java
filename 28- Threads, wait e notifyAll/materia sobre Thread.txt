@@ -1,0 +1,16 @@
+Nesta aula veremos a interação de Threads com os metodos wait() e notifyAll().
+
+Na aula anterior vimos com 'sincronizar' um unico metodo que era utilizado por varias
+Threads ao mesmo tempo.
+
+
+
+Agora: imaginemos que temos um conjunto de Threads que executam varios metodos. Aonde para
+executar um metodo outro metodo totalmente diferente deve ser bloqueado (Aqui teremos um nivel de sincronização muito mais complexo).
+
+
+
+
+Exercicio
+
+As classes produtoras armazenaram os dados em um objecto que é compartilhado com as classes consumidoras. E a classe consumidora lê estes dados e os processa.

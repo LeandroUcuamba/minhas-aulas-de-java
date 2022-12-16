@@ -1,0 +1,23 @@
+As coleções "colection" java são estrutura de dados, interface e metodos usados para manipular estes dados.
+Ex: alguns exemplos de são as cartas de baralho, as minhas musicas favoritas.
+
+A inteface collection é a interface raiz na hierarquia das coleções. Suas bubInterface são
+( Set, List, Queue onde cada uma delas tem um objectivo especifico ).
+
+A interface Set: trabalha com registros sem duplicidade ou seja trabalha com registros unicos.
+
+A interface List: aceita  registros duplicados e trabalha com estes registos na ordem que eles
+são incluido na lista.
+
+A interface Queue: representa uma fila de espera. Aonde os registros são incluidos
+no final da fila e removidos do inicio da fila. 
+
+A interface Map: trabalha com chave e valor. EX: mais ou menos como um dicionario onde
+tens a palvra e o seu significado.
+
+
+Cada uma destas interfaces citadas acima tem um conjunto de Classes que a implementam.
+Além destas classes de coleções nos temos ainda as classes utilitarias que são: Arrays e Collections.
+
+A classe Arrays é ele é utilitario para a manipulacao de arrays. e a Classe Collection
+que é utilitario para a manipulação de coleções.

@@ -1,0 +1,23 @@
+Imaginemos que nos já sabemos trabalhar com Threads e um banco nos convida para construir um
+sistema de saques para contas conjuntas.
+
+Contas conjuntas: são aquelas que varias pessoas podem mexer na mesma conta ao mesmo tempo.
+Com o que já aprendemos sobre Threads já é possivel criar um sistema que varias pessoas
+façam saques ao mesmo tempo.
+
+Problema: imaginemos uma conta que tem 100 reais de saldo e 10 pessoas ao mesmo tempo
+realizam saque de 100 reais, que da 1000 reais.
+
+
+Resolução: para resolver precisamos bloquear a Thread que esta executando o processo de saque,
+para que so ela realiza o saque naquele momento. Assim que ela terminar o saque so assim
+desbloqueia para que outra pessoa realize o saque "outra Thread funcione"!
+
+
+Portanto sem o uso do modificador "Synchronized" o programa fica uma bagunça pk nem
+todos fazem acesso ao mesmo tempo.
+
+
+
+Quando usar o Synchronized o metodo vai ser bloqueado enquanto a Thread esta executando.
+apois terminar a execução, outra Thread pode usar.

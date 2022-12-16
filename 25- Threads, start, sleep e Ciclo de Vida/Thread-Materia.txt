@@ -1,0 +1,16 @@
+Geralmente escrevemos programas que executam um passo de cada vez em sequencia. Essa
+sequencia de passos executados uma de cada vez é chamada de "Threads".
+
+Até agora programamos usando uma unica thread para cada programa, mais na vida real varias actividades
+são feitos ao mesmo tempo.
+Ex: O caixa de banco: ele realiza uma operacao por vez, mais dentro de um banco nos temos
+varios caixas funcionando ao mesmo tempo. Para simular estes varios caixa trabalhando simultaneamente
+precisariamos utilizar uma Thread para cada caixa; (assim poderemos ter um programa mais proximo a vida real).
+
+Estes programas que realizam varias operacoes ao mesmo tempo, são chamados de MultiThread.
+
+
+Nós gerenciamos estas actividades simultaneas atravez dos "Objectos Threads" que são: Run() , Sleep() e Start() e outros.
+
+As classes Threads elas implementam uma interface chamada " Runnable " que define o objecto
+executavel. Todo objecto executavel tem um metodo Run().

@@ -1,0 +1,7 @@
+Na aula passada vimos como criar a nossa propria Thread.
+
+Nesta aula vamos trabalhar coma interface Runnable. Toda Thread implementra runnable, que
+define um objecto executavel. E o unico metodo que as classes runnable deve implementar é o
+metodo Run().
+
+Sendo assim podemos utilizar objectos Runnable no lugar de Thread.
